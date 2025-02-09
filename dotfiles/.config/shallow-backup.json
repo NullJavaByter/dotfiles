@@ -1,0 +1,34 @@
+{
+    "backup_path": "~/shallow-backup",
+    "dotfiles": {
+        ".bash_profile": {},
+        ".bashrc": {},
+	".bash_aliases": {},
+	".bash_logout": {},
+        ".config/git": {},
+        ".config/nvim/init.vim": {},
+        ".config/tmux": {},
+        ".config/zsh": {},
+        ".profile": {},
+        ".pypirc": {},
+        ".ssh": {},
+        ".zshenv": {},
+        ".config/shallow-backup.json": {}
+    },
+    "root-gitignore": [
+        "dotfiles/.pypirc",
+        ".DS_Store"
+    ],
+    "dotfiles-gitignore": [
+        ".pypirc",
+        ".DS_Store"
+    ],
+    "config_mapping": {
+        "/.config/sublime-text-2": "sublime2",
+        "/.config/sublime-text-3": "sublime3",
+        "/.config/Code/User/settings.json": "vscode/settings",
+        "/.config/Code/User/Snippets": "vscode/Snippets",
+        "/.config/Code/User/keybindings.json": "vscode/keybindings"
+    },
+    "lowest_supported_version": "6.4"
+}
