@@ -17,6 +17,7 @@
         ".DS_Store"
     ],
     "config_mapping": {
+	    "~/.local/share/blesh/": "blesh"
     },
     "lowest_supported_version": "6.4"
 }
